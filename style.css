@@ -1,0 +1,142 @@
+/*
+Theme Name: Twenty Nineteen Child Theme
+Theme URI: http://ccit336.firebird.sheridanc.on.ca/
+Description: CCT460 Project 1
+Author: Delaney Rombough
+Author URI: http://yoursite.x
+Template: twentynineteen
+Version: 0.1.0
+*/
+
+@import url("../twentynineteen/style.css");
+
+.site {
+	background-color: #ABDCFF;
+}
+
+.site-branding h1.site-title {
+	display: block;
+}
+
+.site-header {
+	background: skyblue;
+}
+
+.site-description {
+	display: block;
+	padding-bottom: 30px;
+	color: black;
+}
+
+p.site-description {
+	padding-top: 0;
+}
+
+.site-header {
+	padding: 20px;
+}
+
+.entry-content p {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.site-title:not(:empty) + .site-description:not(:empty):before {
+  content: none;
+  margin: 0.2em;
+}
+
+.site-title {
+	font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.main-menu {
+	padding: 20px;
+}
+
+
+.site-content {
+	margin-top: -50px;
+}
+
+.main-navigation .main-menu > li > a {
+  font-weight: 300;
+  color: black;
+  margin-right: 2.5rem;
+  padding-top: 20px;
+}
+
+.main-navigation .main-menu {
+	margin-right: 50px;
+	margin-left: 150px;
+}
+
+h3 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 400;
+}
+
+.entry .entry-content p {
+	font-size: 0.85em;
+	width: 100%;
+}
+
+/* this bit goes in the style.css child theme*/
+.video{
+	position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+	background-size: cover;
+}
+.video video {
+	height: 300px;
+	vertical-align: middle;
+	min-width: 100%;
+}
+
+h1.entry-title {
+	text-align: center;
+	font-size: 1.75em;
+}
+
+p {
+	padding: 30px;
+}
+
+.wp-block-gallery {
+	padding-bottom: 50px;
+}
+
+.entry .entry-content .wp-block-archives li, .entry .entry-content .wp-block-categories li, .entry .entry-content .wp-block-latest-posts li {
+	color: #000000;
+    font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+    padding-bottom: 0.75rem;
+}
+
+p {
+	font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	min-width: 100%;
+}
+
+h3 {
+	padding-left: 30px;
+}
+
+a:visited {
+    color: #02105f;
+}
+
+.wp-block-cover-text {
+	font-family: "Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	letter-spacing: 2px;
+	font-size: 2em;
+}
+
